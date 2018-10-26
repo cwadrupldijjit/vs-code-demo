@@ -1,4 +1,4 @@
-namespace VsCodePrep.Services {
+namespace VsCodeDemo.Services {
     public interface IMessageService
     {
         string GetMessage();

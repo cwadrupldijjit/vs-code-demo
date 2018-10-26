@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace VsCodePrep.Services
+namespace VsCodeDemo.Services
 {
     public class MessageService : IMessageService
     {

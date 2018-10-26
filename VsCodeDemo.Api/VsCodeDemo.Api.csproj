@@ -15,7 +15,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\VsCodePrep.Services\VsCodePrep.Services.csproj" />
+    <ProjectReference Include="..\VsCodeDemo.Services\VsCodeDemo.Services.csproj" />
+    <ProjectReference Include="..\VsCodeDemo.Data\VsCodeDemo.Data.csproj" />
   </ItemGroup>
 
 </Project>

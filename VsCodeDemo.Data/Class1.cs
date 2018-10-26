@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace VsCodePrep.Data
+namespace VsCodeDemo.Data
 {
     public class Class1
     {

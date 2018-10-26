@@ -17,7 +17,7 @@
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
-    "VsCodePrep.Api": {
+    "VsCodeDemo.Api": {
       "commandName": "Project",
       "launchBrowser": true,
       "launchUrl": "api/values",

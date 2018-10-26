@@ -10,9 +10,9 @@
             "request": "launch",
             "preLaunchTask": "build",
             // If you have changed target frameworks, make sure to update the program path.
-            "program": "${workspaceFolder}/VsCodePrep.Api/bin/Debug/netcoreapp2.1/VsCodePrep.Api.dll",
+            "program": "${workspaceFolder}/VsCodeDemo.Api/bin/Debug/netcoreapp2.1/VsCodeDemo.Api.dll",
             "args": [],
-            "cwd": "${workspaceFolder}/VsCodePrep.Api",
+            "cwd": "${workspaceFolder}/VsCodeDemo.Api",
             "stopAtEntry": false,
             "internalConsoleOptions": "openOnSessionStart",
             "launchBrowser": {

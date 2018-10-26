@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
-using VsCodePrep.Services;
+using VsCodeDemo.Services;
 
-namespace VsCodePrep.Api.Controllers
+namespace VsCodeDemo.Api.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
