@@ -6,7 +6,7 @@ namespace VsCodePrep.Services
     {
         public string GetMessage()
         {
-            return "This is my first message to the front-end";
+            return "This is my first message from the back-end";
         }
 
         public string GetSecondMessage()
