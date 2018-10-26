@@ -8,5 +8,10 @@ namespace VsCodePrep.Services
         {
             return "This is my message to the front-end";
         }
+
+        public string GetSecondMessage()
+        {
+            return "This is another message to the front-end";
+        }
     }
 }

@@ -24,30 +24,13 @@ namespace VsCodePrep.Api.Controllers
         {
             return _messageService.GetMessage();
         }
-
-        // GET api/message/5
-        [HttpGet("{id}")]
-        public ActionResult<string> Get(int id)
+        
+        // GET api/message
+        [HttpGet]
+        [Route("/api/message2")]
+        public ActionResult<string> GetSecondMessage()
         {
-            return "value";
-        }
-
-        // POST api/message
-        [HttpPost]
-        public void Post([FromBody] string value)
-        {
-        }
-
-        // PUT api/message/5
-        [HttpPut("{id}")]
-        public void Put(int id, [FromBody] string value)
-        {
-        }
-
-        // DELETE api/message/5
-        [HttpDelete("{id}")]
-        public void Delete(int id)
-        {
+            return _messageService.GetSecondMessage();
         }
     }
 }
